@@ -1,0 +1,52 @@
+@charset "utf-8";
+body{
+  background-image: url(../images/paper.png);
+}
+h1 {
+  text-align: center;
+}
+
+.left-box,
+.right-box,
+.center-box {
+  width: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.left-box figure {
+  float: left;
+  margin: 0 16px 16px 0;
+}
+
+.right-box figure {
+  float: right;
+  margin: 0 0 16px 16px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  border: 1px solid #666;
+}
+figcaption{
+  text-shadow: red 0px 0px 5px;
+  color: white;
+}
+p {
+  margin: 0;
+  line-height: 1.8;
+  color: white;
+  text-shadow: yellow 1px 1px 10px;
+}
+img{
+  box-shadow: black 0px 0px 20px 0px;
+  border-radius: 10px;
+}
+hr{
+  border: 2px dotted white;
+  box-shadow: lightsalmon 1px 1px 15px;
+  width: 30%;
+}
